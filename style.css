@@ -6,8 +6,8 @@ body {
 .start {
     background-color: #1f2937;
     padding-top: 25px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .header {
@@ -31,10 +31,56 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
 }
 
 a {
     text-decoration: none;
     color: white;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    min-width: 0;
+}
+
+.hero {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.banner img {
+    flex: 1;
+    width: 100%;
+    height:auto;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: white;
+}
+
+.hero-content {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero button {
+    height: 30px;
+    width: 100px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8px;
+    border-style: none;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
