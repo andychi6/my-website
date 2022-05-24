@@ -64,7 +64,7 @@ a {
 
 .hero-title {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: bolder;
     color: white;
 }
 
@@ -84,3 +84,40 @@ a {
     justify-content: center;
     align-items: center;
 }
+
+.info {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    padding-left: 350px;
+    padding-right: 350px;
+    gap: 50px;
+}
+
+.info-title {
+    font-size: 35px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    min-width: none;
+}
+
+.card {
+    text-align: center;
+}
+
+.card img {
+    width:100%;
+    height:auto;
+    border-radius: 8px;
+}
+
